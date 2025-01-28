@@ -1,9 +1,26 @@
-import { workData, assets } from '@/assets/assets'
+import { assets } from '@/assets/assets'
 import React from 'react'
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 
 const Work = () => {
+
+    const workData = [
+        {
+            title: 'AI prompt',
+            description: 'Generative AI',
+            bgImage: '/ProjectGifs/aiprompt/image.png/',
+            redirect: '/Project/AIprompt',
+        },
+        {
+            title: 'Web.builder',
+            description: 'No code website builder',
+            bgImage: '/ProjectGifs/web.builder/image.png/',
+            redirect: '/Project/Web.builder',
+    
+        },
+    
+    ]
 
     const router = useRouter()
 
