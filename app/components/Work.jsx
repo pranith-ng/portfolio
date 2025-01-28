@@ -9,13 +9,13 @@ const Work = () => {
         {
             title: 'AI prompt',
             description: 'Generative AI',
-            bgImage: '/ProjectGifs/aiprompt/image.png',
+            bgImage: '/projectGifs/aiprompt/aiimage.png',
             redirect: '/Project/AIprompt',
         },
         {
             title: 'Web.builder',
             description: 'No code website builder',
-            bgImage: '/ProjectGifs/web.builder/image.png',
+            bgImage: '/projectGifs/web.builder/wbimage.png',
             redirect: '/Project/Web.builder',
     
         },
