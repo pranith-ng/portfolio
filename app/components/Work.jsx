@@ -32,9 +32,7 @@ const Work = () => {
             <h2 className='text-center text-5xl font-Ovo'>
                 My latest work
             </h2>
-            <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-                i am a front end developer from califormia, usa with 10 years of experience in multiple companies like microsoft, tesla and apple
-            </p>
+           
 
             <div className='grid grid-cols-auto my-10 gap-5'>
                 {workData.map((project, index) => (
