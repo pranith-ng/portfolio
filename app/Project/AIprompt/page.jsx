@@ -10,6 +10,7 @@ const page = () => {
         techStack: [
             { category: 'Frontend', details: 'Next.js, Tailwind CSS, React' },
             { category: 'API', details: 'Gemini API' },
+            { category: 'Authentication', details: 'Firebase Authentication (Email, Sign-In ,Sign-Up)' },
         ],
         features: [
             {
