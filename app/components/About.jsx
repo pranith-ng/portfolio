@@ -11,7 +11,7 @@ const About = () => {
             <p className='my-10 max-w-2xl font-Ovo'>
             I’m a self-taught front-end developer with a passion for creating visually appealing and user-friendly websites. My journey began with curiosity and a desire to understand how web pages are built. Through online resources, hands-on projects, and constant experimentation, I’ve developed my skills in HTML, CSS, JavaScript, and frameworks like React, Next.js, and Tailwind CSS. For the back-end, I’ve worked with Firebase and Supabase to create dynamic, data-driven applications. I enjoy solving problems, learning new technologies, and turning creative ideas into functional websites. My goal is to always deliver clear, responsive, and engaging web experiences.
             </p>
-            <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
+            <ul className='grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl'>
                 {infoList.map(({icon, title, description}, index) => (
                     <li className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black'
                      key={index}>

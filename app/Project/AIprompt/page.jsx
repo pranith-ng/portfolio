@@ -22,12 +22,23 @@ const page = () => {
             },
             {
                 description: 'Generates programming code dynamically based on user prompts.',
-                gif: '/projectGifs/aiprompt/AIprompt4.mp4',            },
+                gif: '/projectGifs/aiprompt/AIprompt4.mp4',
+            },
             {
                 description: 'Responsive design that works seamlessly across all devices, including mobile, PC, and tablet.',
-                gif: '/projectGifs/aiprompt/AIprompt3.mp4',            },
+                gif: '/projectGifs/aiprompt/AIprompt3.mp4',
+            },
         ],
-        visitLink: 'https://www.yourwebsite.com',
+        links: [
+            {
+                name: "GitHub Repository",
+                href: "https://github.com/pranith-ng/AIprompt"
+            },
+            {
+                name: "Visit Website",
+                href: "https://a-iprompt-25dx.vercel.app/"
+            }
+        ]
     };
 
     return (

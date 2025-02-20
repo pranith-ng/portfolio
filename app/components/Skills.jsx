@@ -11,12 +11,13 @@ const Skills = () => {
         { name: "Tailwind CSS", image: "/tailwindcss.png" },
         { name: "Firebase", image: "/firebase.png" },
         { name: "Git", image: "/git.png" },
-    ];
+        { name: "Github", image: "/github.png" },
+        ];
 
 
     return (
         <div id='skills' className="max-w-3xl m-auto flex flex-col items-center py-12 scroll-m-20">
-            <h1 className="text-4xl font-bold mb-8 text-center">My Skills</h1>
+            <h1 className="text-center text-5xl font-Ovo mb-8">My Skills</h1>
             <div className="grid grid-cols-2 w-fit sm:grid-cols-2 md:grid-cols-3 gap-6 px-4 sm:w-full max-w-7xl">
                 {skill.map((skil, index) => (
                     <div
@@ -26,7 +27,7 @@ const Skills = () => {
                         <img
                             src={skil.image}
                             alt={skil.name}
-                            className="h-14 b-4 transform group-hover:scale-110 transition-transform duration-300"
+                            className="h-14 transform group-hover:scale-110 transition-transform duration-300"
                         />
                         <h2 className="pt-4 text-xl font-medium text-gray-800 text-center">{skil.name}</h2>
                     </div>

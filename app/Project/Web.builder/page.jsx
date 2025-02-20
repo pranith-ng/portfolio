@@ -39,7 +39,16 @@ const page = () => {
                 gif: '/projectGifs/web.builder/webbuilder6.mp4',
             },
         ],
-        visitLink: 'https://www.yourwebsite.com',
+        links: [
+            {
+                name: "GitHub Repository",
+                href: "https://github.com/pranith-ng/Web.builder"
+            },
+            {
+                name: "Visit Website",
+                href: "https://web-builder-sandy.vercel.app/"
+            }
+        ]
     };
 
     return (

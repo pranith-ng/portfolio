@@ -10,8 +10,9 @@ const ProjectPageTemplate = ({ projectData }) => {
         description,
         techStack,
         features,
-        visitLink
+        links
     } = projectData;
+
 
     return (
         <div className="relative min-h-screen pb-9">
@@ -70,16 +71,22 @@ const ProjectPageTemplate = ({ projectData }) => {
             </div>
 
             {/* Fixed Bottom Capsule */}
-            {visitLink && (
-    <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 p-2 w-4/5 max-w-3xl bg-blue-700 bg-opacity-50 text-white rounded-full shadow-lg backdrop-blur-lg border border-white border-opacity-30">
-        <div className="flex justify-between items-center space-x-4 w-full h-10">
-            <div></div> {/* Empty div to create space on the left */}
-            <button className="px-6 py-2 text-lg rounded-full bg-white text-blue-600 font-semibold hover:bg-gray-200 ml-auto">
-                Visit Website
-            </button>
-        </div>
-    </div>
-)}
+                <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 p-1  bg-white bg-opacity-70 text-white rounded-full shadow-lg backdrop-blur-lg border border-white border-opacity-30">
+                    <div className="flex justify-between items-center space-x-4 w-full h-10">
+                        {links.map((item, index) => (
+                           
+                            <a
+                            key={index}
+                            href={item.href}
+                            target='_blank'
+                            className="px-6 py-1 text-lg rounded-full bg-white text-amber-950 font-semibold hover:bg-gray-200 ml-auto">
+                                {item.name}
+                            </a>
+
+                        ))}
+                    </div>
+                </div>
+            
 
 
 
