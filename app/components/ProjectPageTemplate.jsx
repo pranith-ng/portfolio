@@ -79,7 +79,7 @@ const ProjectPageTemplate = ({ projectData }) => {
                             key={index}
                             href={item.href}
                             target='_blank'
-                            className="px-6 py-1 text-lg rounded-full bg-white text-amber-950 font-semibold hover:bg-gray-200 ml-auto">
+                            className="px-6 py-1 text-xs rounded-full bg-white text-amber-950 font-semibold hover:bg-gray-200 ml-auto sm:text-sm lg:text-lg">
                                 {item.name}
                             </a>
 
