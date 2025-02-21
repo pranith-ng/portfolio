@@ -71,7 +71,7 @@ const ProjectPageTemplate = ({ projectData }) => {
             </div>
 
             {/* Fixed Bottom Capsule */}
-                <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 p-1  bg-white bg-opacity-70 text-white rounded-full shadow-lg backdrop-blur-lg border border-white border-opacity-30">
+                <div className="fixed bottom-2 left-1/2 transform -translate-x-1/2 p-1  bg-white bg-opacity-70 text-white rounded-full shadow-lg backdrop-blur-lg border border-white border-opacity-30">
                     <div className="flex justify-between items-center space-x-4 w-full h-10">
                         {links.map((item, index) => (
                            
