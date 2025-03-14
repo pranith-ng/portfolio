@@ -32,7 +32,7 @@ const Navbar = () => {
                 <Image
                     src={assets.header_bg_color}
                     alt=""
-                    className="w-full h-full object-cover opacity-40"
+                    className="w-full h-full object-cover opacity-100"
                 />
             </div>
 
@@ -41,7 +41,7 @@ const Navbar = () => {
                     damnnn
                     {/* <Image src={assets.logo} alt='' className='w-28 cursor-pointer mr-14' /> */}
                 </a>
-                <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50"} `}>
+                <ul className={`hidden md:flex items-center gap-6 lg:gap-16 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50"} `}>
                     <li><a className='font-Ovo' href="#top">Home</a></li>
                     <li><a className='font-Ovo' href="#about">About me</a></li>
                     <li><a className='font-Ovo' href="#skills">Skills</a></li>

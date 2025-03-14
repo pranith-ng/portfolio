@@ -8,7 +8,7 @@ const About = () => {
         <h4 className='text-center mb-2 text-lg font-Ovo'>Introduction</h4>
         <h2 className='text-center text-5xl font-Ovo' >About me</h2>
 
-            <p className='my-10 max-w-2xl font-Ovo'>
+            <p className='my-10 max-w-2xl font-Ovo text-justify md:text-lg md:leading-relaxed'>
             I’m a self-taught front-end developer with a passion for creating visually appealing and user-friendly websites. My journey began with curiosity and a desire to understand how web pages are built. Through online resources, hands-on projects, and constant experimentation, I’ve developed my skills in HTML, CSS, JavaScript, and frameworks like React, Next.js, and Tailwind CSS. For the back-end, I’ve worked with Firebase and Supabase to create dynamic, data-driven applications. I enjoy solving problems, learning new technologies, and turning creative ideas into functional websites. My goal is to always deliver clear, responsive, and engaging web experiences.
             </p>
             <ul className='grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl'>

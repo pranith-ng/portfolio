@@ -21,7 +21,7 @@ const ProjectPageTemplate = ({ projectData }) => {
                 <Image
                     src={assets.header_bg_color}
                     alt='bg-image'
-                    className="w-full h-full object-cover opacity-40"
+                    className="w-full h-full object-cover opacity-100"
                 />
             </div>
 

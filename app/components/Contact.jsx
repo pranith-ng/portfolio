@@ -85,7 +85,7 @@ const Contact = () => {
 
 
       <p className='text-center max-w-2xl mx-auto mb-12 font-Ovo'>
-        if you have any questions comments or feedback please use the form below
+        If you have any questions comments or feedback please use the form below
       </p>
 
       <form onSubmit={onSubmit} className='max-w-2xl mx-auto'>
