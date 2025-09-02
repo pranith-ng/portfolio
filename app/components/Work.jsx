@@ -7,6 +7,12 @@ const Work = () => {
 
     const workData = [
         {
+            title: 'SiteScannerPro',
+            description: 'website analyser',
+            bgImage: '/projectGifs/sitescannerpro/sspimg.png',
+            redirect: '/Project/Sitescannerpro',
+        },
+        {
             title: 'AI prompt',
             description: 'Generative AI',
             bgImage: '/projectGifs/aiprompt/aiimage.png',
@@ -34,7 +40,7 @@ const Work = () => {
             </h2>
            
 
-            <div className='grid grid-cols-auto my-10 gap-5'>
+            <div className='grid md:grid-cols-2 my-10 gap-5'>
                 {workData.map((project, index) => (
                     <div onClick={() => {
                         history.replaceState(null, null, ' ')
